@@ -30,8 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:hint="Ejemplo: Foto1"
-        android:inputType="text"/>
+        android:hint="Ejemplo: pastilla levoxetina"
+        android:inputType="text" />
 
     <TextView
         android:layout_width="match_parent"
@@ -46,8 +46,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:hint="Ejemplo: Fotografia tomada el 12/06/2022"
-        android:inputType="text"/>
+        android:hint="Ejemplo: E.12/06/2022 v.12/06/2022"
+        android:inputType="text" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -71,9 +71,9 @@
             android:id="@+id/btnGuardarSql"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A SQlite"
             android:layout_marginHorizontal="10dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="Guardar" />
 
     </LinearLayout>
 
