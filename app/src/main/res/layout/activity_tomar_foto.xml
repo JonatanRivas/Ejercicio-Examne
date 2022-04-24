@@ -23,7 +23,7 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="30dp"
         android:textSize="20sp"
-        android:text="Nombre: "/>
+        android:text="Medicamento: "/>
 
     <EditText
         android:id="@+id/txtNombre"
