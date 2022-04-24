@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTomarFoto"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageViewTomarFoto"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Nombre: "/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Ejemplo: Foto1"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Descripcion : "/>
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Ejemplo: Fotografia tomada el 12/06/2022"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/btnTomarFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomar Foto"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnGuardarSql"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A SQlite"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
